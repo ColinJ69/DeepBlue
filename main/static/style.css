@@ -1,0 +1,227 @@
+﻿
+#introImg {
+    height: 90%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+   
+    background: url('https://bit.ly/3DQGhiR');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: backgroundSwapping 5s infinite;
+    animation-delay: 5s;
+}
+@keyframes backgroundSwapping{
+    0%, 49.999% {
+        background-image: url('http://bit.ly/40bl9LK');
+    }
+    50%, 100% {
+        background-image: url('https://bit.ly/3PyEIbS');
+    }
+}
+#logo {
+    background: url('https://bit.ly/4gPmeQB');
+    z-index: 2;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+#firstthing {
+    height: 50%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: #172E5F;
+}
+#secondthing {
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: block;
+    background: #172E5F;
+}
+.ndimg {
+    position:relative;
+   
+    height:100%;
+    width:100%;
+}
+.stimg {
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+.slidein {
+    animation: slidein 2s;
+}
+.slide-in{
+    animation:slide-in 2s
+}
+
+#question_divy {
+    background-color: #ffffff;
+    display: inline-block;
+    height: 28%;
+    width: 45%;
+    font-size: 2px;
+    float: right;
+    padding-top: 2%;
+    border-radius: 10px;
+    font-family: serif;
+    
+    padding: 1%;
+    padding-top:2%;
+    bottom:35%;
+    overflow:hidden;
+    border: 2px solid #2f2f2f;
+    
+}
+.grow {
+    animation: grow 2s forwards;
+}
+    .grow h2 {
+        animation: text 2s forwards;
+    }
+@keyframes slide-in {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slidein {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#belowdiv {
+    display: inline-block;
+    height: 90%;
+    position:relative;
+    width: 100%;
+    padding: 0;
+    
+}
+@keyframes grow {
+    0% {
+        transform: scale(1);
+        font-size:9px;
+    }
+
+
+    100% {
+        transform: scale(2);
+        font-size:14px;
+    }
+}
+@keyframes text{
+    0%{
+        font-size:10px;
+    }
+    100%{
+        font-size:20px;
+    }
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.box {
+    height: 10%;
+    background: #2f2f2f;
+    --mask: radial-gradient(137.96px at 50% 187.6px,#000 99%,#0000 101%) calc(50% - 134px) 0/268px 100%, radial-gradient(137.96px at 50% -120.6px,#0000 99%,#000 101%) 50% 67px/268px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+
+
+#explanation{
+    display:none;
+    border:none;
+    padding:5%;
+}
+.explaintext{
+    font-size:1.5rem;
+    color:#2f2f2f;
+}
+#questionacc{
+    display:block;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+ 
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+#points{
+    margin-left:10%;
+    font-size:2rem;
+}
+.water-drop {
+    width: 200px;
+    height: 250px;
+    margin-top: -10%;
+}
+
+    .water-drop path {
+        stroke: white;
+        stroke-width: 3;
+        fill: transparent;
+    }
+
+#firstthing p, #secondthing p {
+    font-size:3rem;
+    color:white;
+    font-family:serif;
+}

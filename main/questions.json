@@ -1,0 +1,80 @@
+[
+  {
+    "Question": "What are PFAS?",
+    "Ans_Choices": [
+      "Naturally occuring chemicals found in the environment.",
+      "A group of man-made chemicals used in various industrial and consumer product",
+      "A type of bacteria found in contaminated water",
+      "A class of vitamins essential for human health."
+    ],
+    "Correct_Ans": "2",
+    "Explanation1": "Correct!, PFAS - an acronym for per- and polyfluoroakyl substances - are man made chemicals used across various industrial and consumer products and are dangerous to human health.",
+    "Explanation2": "Incorrect, PFAS - an acronym for per- and polyfluoroakyl substances - are man made chemicals used across various industrial and consumer products and are dangerous to human health."
+
+  },
+  {
+    "Question": "Why are PFAS called forever chemicals?",
+    "Ans_Choices": [
+      "They are essential for human health and must be consumed regularly.",
+      "They break down quickly in the environment.",
+      "They persist in the environment and human body for a very long time",
+      "They are used in product that last forever."
+    ],
+    "Correct_Ans": "3",
+    "Explanation1": "Correct!, PFAS are called forever chemicals due to their ability to persist in the environment and bodies of animals for a very long time",
+    "Explanation2": "Incorrect, PFAS are called forever chemicals due to their ability to persist in the environment and bodies of animals for a very long time"
+  },
+  {
+    "Question": "How can PFAS enter the human body?",
+    "Ans_Choices": [
+      "Through direct skin contact only",
+      "By inhaling air in urban areas.",
+      "Through contaminated water, food, air, and consumer products.",
+      "By touching contaminated surfaces."
+    ],
+    "Correct_Ans": "3",
+    "Explanation1": "Correct!, PFAS can enter the body through many different ways including water, food, air, and consumer products",
+    "Explanation2": "Incorrect, Though it can enter your body through this, it can also enter it many many other ways included in a different answer"
+
+  },
+  {
+    "Question": "What action is the EPA taking about PFAS?",
+    "Ans_Choices": [
+      "Banning all PFAS-containing products",
+      "Setting maximum comtaminant levels in water",
+      "Promoting the use of PFAS in industrial activities",
+      "Ignoring PFAS contamination"
+    ],
+    "Correct_Ans": "2",
+    "Explanation1": "Correct!, The EPA(Environmental Protection Agency) is dedicated to taking action against PFAS, one of these ways is by settings the maxmimum amount of them allowed in water",
+    "Explanation2": "Incorrect, the EPA(Environmental Protection Agency) has not taken these actions"
+  },
+  {
+    "Question": "What is the most common method for decontaminating drinking water?",
+    "Ans_Choices": [ "Chlorination", "Filtration", "Boiling", "Distillation" ],
+    "Correct_Ans": "1",
+    "Explanation1": "Correct!, chlorinating water removes contaminants and kills harmful microorganisms",
+    "Explanation2": "Incorrect, chlorinating water is the most common method for decontaminating drinking water, it removes contaminants and kills harmful microorganisms"
+  },
+  {
+    "Question": "What is the primary source of groundwater contamination?",
+    "Ans_Choices": [ "Industrial activities", "Urban runoff", "Natural resources", "Agricultural activities" ],
+    "Correct_Ans": "1",
+    "Explanation1": "Correct!, industrial activities like mining, drilling, and manufacturing can seep pollutants into the groundwater",
+    "Explanation2": "Incorrect, though the other answers do contribute to groundwater contamination, industrial activities contribute the most"
+  },
+  {
+    "Question": "What energy source is the most sustainable & reliable?",
+    "Ans_Choices": [ "Coal", "Natural Gas", "Nuclear", "Solar" ],
+    "Correct_Ans": "3",
+    "Explanation1": "Correct!, nuclear produces an enormous amount of energy without polluting the environment so long as it's done safely",
+    "Explanation2": "Incorrect, nuclear produces energy on par with coal and natural gas while polluting as much as solar"
+  },
+  {
+    "Question": "What farming tool leads to excess nutrient growth in water bodies(eutrophication)?",
+    "Ans_Choices": [ "Pesicides", "Fertilizers", "Fungicides", "Herbicides" ],
+    "Correct_Ans": "2",
+    "Explanation1": "Correct!, fertilizers have nutrients which leads to eutrophication which kills off entire aquatic ecosystems",
+    "Explanation2": "Incorrect, these serve the purpose of killing off a certain thing, and don't contain nutrients to help growth like fertlizers"
+  }
+]
